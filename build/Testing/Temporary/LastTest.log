@@ -1,0 +1,46 @@
+Start testing: May 29 12:08 UTC
+----------------------------------------------------------
+1/1 Testing: MatrixMultiplicationTest.TestMultiplyMatrices
+1/1 Test: MatrixMultiplicationTest.TestMultiplyMatrices
+Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices" "--gtest_also_run_disabled_tests"
+Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
+"MatrixMultiplicationTest.TestMultiplyMatrices" start time: May 29 12:08 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixMultiplicationTest
+[ RUN      ] MatrixMultiplicationTest.TestMultiplyMatrices
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 12: The number of rows in A is equal to the number of columns in B!
+Error 14: The result matrix C has an even number of rows!
+Error 20: Number of columns in matrix A is odd!
+/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/test/test_matrix_multiplication.cpp:28: Failure
+Expected equality of these values:
+  C
+    Which is: { { 58, 64 }, { 143, 161 } }
+  expected
+    Which is: { { 58, 64 }, { 139, 154 } }
+Matrix multiplication test failed! :(((()
+
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices (0 ms)
+[----------] 1 test from MatrixMultiplicationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"MatrixMultiplicationTest.TestMultiplyMatrices" end time: May 29 12:08 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 29 12:08 UTC
