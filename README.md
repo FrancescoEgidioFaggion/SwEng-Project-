@@ -1,2 +1,1 @@
-# SwEng-Project-
-DevOps project
+# SE4HPCproject
