@@ -1,3 +1,13 @@
-MatrixMultiplicationTest.TestMultiplyMatrices 0 0
+MatrixMultiplicationTest.TestMultiplyMatrices 1 0
+MatrixMultiplicationTest.TestMultiplyMatrices1 8 0.000473144
+MatrixMultiplicationTest.TestMultiplyMatrices2 0 0
+MatrixMultiplicationTest.TestMultiplyMatrices3 0 0
+MatrixMultiplicationTest.TestMultiplyMatrices4 0 0
+MatrixMultiplicationTest.TestMultiplyMatrices5 0 0
+MatrixMultiplicationTest.TestMultiplyMatrices6 0 0
 ---
-MatrixMultiplicationTest.TestMultiplyMatrices
+MatrixMultiplicationTest.TestMultiplyMatrices2
+MatrixMultiplicationTest.TestMultiplyMatrices3
+MatrixMultiplicationTest.TestMultiplyMatrices4
+MatrixMultiplicationTest.TestMultiplyMatrices5
+MatrixMultiplicationTest.TestMultiplyMatrices6

@@ -1,46 +1,261 @@
-Start testing: May 29 12:08 UTC
+Start testing: May 29 16:01 UTC
 ----------------------------------------------------------
-1/1 Testing: MatrixMultiplicationTest.TestMultiplyMatrices
-1/1 Test: MatrixMultiplicationTest.TestMultiplyMatrices
-Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices" "--gtest_also_run_disabled_tests"
+1/6 Testing: MatrixMultiplicationTest.TestMultiplyMatrices1
+1/6 Test: MatrixMultiplicationTest.TestMultiplyMatrices1
+Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices1" "--gtest_also_run_disabled_tests"
 Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
-"MatrixMultiplicationTest.TestMultiplyMatrices" start time: May 29 12:08 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices1" start time: May 29 16:01 UTC
 Output:
 ----------------------------------------------------------
-Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices
+Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices1
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 1 test from MatrixMultiplicationTest
-[ RUN      ] MatrixMultiplicationTest.TestMultiplyMatrices
-Error 6: Result matrix contains a number bigger than 100!
-Error 6: Result matrix contains a number bigger than 100!
+[ RUN      ] MatrixMultiplicationTest.TestMultiplyMatrices1
 Error 12: The number of rows in A is equal to the number of columns in B!
 Error 14: The result matrix C has an even number of rows!
 Error 20: Number of columns in matrix A is odd!
-/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/test/test_matrix_multiplication.cpp:28: Failure
+[       OK ] MatrixMultiplicationTest.TestMultiplyMatrices1 (0 ms)
+[----------] 1 test from MatrixMultiplicationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixMultiplicationTest.TestMultiplyMatrices1" end time: May 29 16:01 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: MatrixMultiplicationTest.TestMultiplyMatrices2
+2/6 Test: MatrixMultiplicationTest.TestMultiplyMatrices2
+Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices2" "--gtest_also_run_disabled_tests"
+Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
+"MatrixMultiplicationTest.TestMultiplyMatrices2" start time: May 29 16:01 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixMultiplicationTest
+[ RUN      ] MatrixMultiplicationTest.TestMultiplyMatrices2
+Error 8: Result matrix contains zero!
+Error 8: Result matrix contains zero!
+Error 8: Result matrix contains zero!
+Error 8: Result matrix contains zero!
+Error 11: Every row in matrix B contains at least one '0'!
+Error 12: The number of rows in A is equal to the number of columns in B!
+Error 14: The result matrix C has an even number of rows!
+Error 20: Number of columns in matrix A is odd!
+/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/test/test_matrix_multiplication.cpp:56: Failure
 Expected equality of these values:
   C
-    Which is: { { 58, 64 }, { 143, 161 } }
+    Which is: { { 4, 7 }, { 8, 6 } }
   expected
-    Which is: { { 58, 64 }, { 139, 154 } }
+    Which is: { { 0, 0 }, { 0, 0 } }
 Matrix multiplication test failed! :(((()
 
-[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices (0 ms)
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices2 (0 ms)
 [----------] 1 test from MatrixMultiplicationTest (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 0 tests.
 [  FAILED  ] 1 test, listed below:
-[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices2
 
  1 FAILED TEST
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Failed.
-"MatrixMultiplicationTest.TestMultiplyMatrices" end time: May 29 12:08 UTC
-"MatrixMultiplicationTest.TestMultiplyMatrices" time elapsed: 00:00:00
+"MatrixMultiplicationTest.TestMultiplyMatrices2" end time: May 29 16:01 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 29 12:08 UTC
+3/6 Testing: MatrixMultiplicationTest.TestMultiplyMatrices3
+3/6 Test: MatrixMultiplicationTest.TestMultiplyMatrices3
+Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices3" "--gtest_also_run_disabled_tests"
+Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
+"MatrixMultiplicationTest.TestMultiplyMatrices3" start time: May 29 16:01 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixMultiplicationTest
+[ RUN      ] MatrixMultiplicationTest.TestMultiplyMatrices3
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 12: The number of rows in A is equal to the number of columns in B!
+Error 14: The result matrix C has an even number of rows!
+Error 20: Number of columns in matrix A is odd!
+/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/test/test_matrix_multiplication.cpp:83: Failure
+Expected equality of these values:
+  C
+    Which is: { { 180, 122 }, { 174, 142 } }
+  expected
+    Which is: { { 169, 108 }, { 170, 136 } }
+Matrix multiplication test failed! :(((()
+
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices3 (0 ms)
+[----------] 1 test from MatrixMultiplicationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices3
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"MatrixMultiplicationTest.TestMultiplyMatrices3" end time: May 29 16:01 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: MatrixMultiplicationTest.TestMultiplyMatrices4
+4/6 Test: MatrixMultiplicationTest.TestMultiplyMatrices4
+Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices4" "--gtest_also_run_disabled_tests"
+Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
+"MatrixMultiplicationTest.TestMultiplyMatrices4" start time: May 29 16:01 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixMultiplicationTest
+[ RUN      ] MatrixMultiplicationTest.TestMultiplyMatrices4
+Error 8: Result matrix contains zero!
+Error 11: Every row in matrix B contains at least one '0'!
+Error 12: The number of rows in A is equal to the number of columns in B!
+Error 13: The first element of matrix A is equal to the first element of matrix B!
+Error 18: Matrix A is a square matrix!
+Error 20: Number of columns in matrix A is odd!
+/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/test/test_matrix_multiplication.cpp:102: Failure
+Expected equality of these values:
+  C
+    Which is: { { 4 } }
+  expected
+    Which is: { { 0 } }
+Matrix multiplication test failed! :(((()
+
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices4 (0 ms)
+[----------] 1 test from MatrixMultiplicationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices4
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"MatrixMultiplicationTest.TestMultiplyMatrices4" end time: May 29 16:01 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: MatrixMultiplicationTest.TestMultiplyMatrices5
+5/6 Test: MatrixMultiplicationTest.TestMultiplyMatrices5
+Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices5" "--gtest_also_run_disabled_tests"
+Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
+"MatrixMultiplicationTest.TestMultiplyMatrices5" start time: May 29 16:01 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixMultiplicationTest
+[ RUN      ] MatrixMultiplicationTest.TestMultiplyMatrices5
+Error 8: Result matrix contains zero!
+Error 8: Result matrix contains zero!
+Error 8: Result matrix contains zero!
+Error 8: Result matrix contains zero!
+Error 8: Result matrix contains zero!
+Error 8: Result matrix contains zero!
+Error 8: Result matrix contains zero!
+Error 8: Result matrix contains zero!
+Error 8: Result matrix contains zero!
+Error 12: The number of rows in A is equal to the number of columns in B!
+/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/test/test_matrix_multiplication.cpp:127: Failure
+Expected equality of these values:
+  C
+    Which is: { { 4, 7, 8 }, { 6, 4, 6 }, { 7, 3, 10 } }
+  expected
+    Which is: { { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 } }
+Matrix multiplication test failed! :(((()
+
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices5 (0 ms)
+[----------] 1 test from MatrixMultiplicationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices5
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"MatrixMultiplicationTest.TestMultiplyMatrices5" end time: May 29 16:01 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: MatrixMultiplicationTest.TestMultiplyMatrices6
+6/6 Test: MatrixMultiplicationTest.TestMultiplyMatrices6
+Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices6" "--gtest_also_run_disabled_tests"
+Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
+"MatrixMultiplicationTest.TestMultiplyMatrices6" start time: May 29 16:01 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices6
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixMultiplicationTest
+[ RUN      ] MatrixMultiplicationTest.TestMultiplyMatrices6
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 12: The number of rows in A is equal to the number of columns in B!
+Error 14: The result matrix C has an even number of rows!
+Error 15: A row in matrix A is filled entirely with 5s!
+Error 18: Matrix A is a square matrix!
+/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/test/test_matrix_multiplication.cpp:150: Failure
+Expected equality of these values:
+  C
+    Which is: { { 24, 30 }, { 27, 30 } }
+  expected
+    Which is: { { 20, 30 }, { 20, 30 } }
+Matrix multiplication test failed! :(((()
+
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices6 (0 ms)
+[----------] 1 test from MatrixMultiplicationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices6
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"MatrixMultiplicationTest.TestMultiplyMatrices6" end time: May 29 16:01 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 29 16:01 UTC
