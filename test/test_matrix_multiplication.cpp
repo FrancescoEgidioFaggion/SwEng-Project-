@@ -6,7 +6,7 @@
 // ######################### Source code of multiplyMatrices in src/matrix_mult
 
 
-TEST(MatrixMultiplicationTest, TestMultiplyMatrices1) {
+TEST(MatrixMultiplicationTest, TestMultiplyMatrices1) {//abbiamo tolto il lro primo test, da rimettere
     std::vector<std::vector<int>> A = {
         {1, 0,0},
         {0, 1,0}
@@ -145,6 +145,150 @@ TEST(MatrixMultiplicationTest, TestMultiplyMatrices6) {
     std::vector<std::vector<int>> expected = {
         {20, 30},
         {20, 30}
+    };
+
+    ASSERT_EQ(C, expected) << "Matrix multiplication test failed! :(((()";
+}
+
+TEST(MatrixMultiplicationTest, TestMultiplyMatrices7) {
+    std::vector<std::vector<int>> A = {
+        {10, 20,30},
+        {40, 50, 60}
+    };
+    std::vector<std::vector<int>> B = {
+        {10, 20},
+        {30, 40},
+        {50, 60}
+    };
+    std::vector<std::vector<int>> C(2, std::vector<int>(2, 0));
+
+    multiplyMatrices(A, B, C, 2, 3, 2);
+
+    std::vector<std::vector<int>> expected = {
+        {2200, 2100},
+        {4900, 6400}
+    };
+
+    ASSERT_EQ(C, expected) << "Matrix multiplication test failed! :(((()";
+}
+
+TEST(MatrixMultiplicationTest, TestMultiplyMatrices8) {
+    std::vector<std::vector<int>> A = {
+        {2, 1,0},
+        {0, 1, 2}
+    };
+    std::vector<std::vector<int>> B = {
+        {2, 1},
+        {0, 0},
+        {1, 2}
+    };
+    std::vector<std::vector<int>> C(2, std::vector<int>(2, 0));
+
+    multiplyMatrices(A, B, C, 2, 3, 2);
+
+    std::vector<std::vector<int>> expected = {
+        {4, 2},
+        {2, 4}
+    };
+
+    ASSERT_EQ(C, expected) << "Matrix multiplication test failed! :(((()";
+}
+
+TEST(MatrixMultiplicationTest, TestMultiplyMatrices9) {
+    std::vector<std::vector<int>> A = {
+        {2, 3,1}
+    };
+    std::vector<std::vector<int>> B = {
+        {1},
+        {3},
+        {2}
+    };
+    std::vector<std::vector<int>> C(1, std::vector<int>(1, 0));
+
+    multiplyMatrices(A, B, C, 1, 3, 1);
+
+    std::vector<std::vector<int>> expected = {
+        {13}
+    };
+
+    ASSERT_EQ(C, expected) << "Matrix multiplication test failed! :(((()";
+}
+
+TEST(MatrixMultiplicationTest, TestMultiplyMatrices10) {
+    std::vector<std::vector<int>> A = {
+        {3, 3,3}
+    };
+    std::vector<std::vector<int>> B = {
+        {1},
+        {4},
+        {11}
+    };
+    std::vector<std::vector<int>> C(1, std::vector<int>(1, 0));
+
+    multiplyMatrices(A, B, C, 1, 3, 1);
+
+    std::vector<std::vector<int>> expected = {
+        {48}
+    };
+
+    ASSERT_EQ(C, expected) << "Matrix multiplication test failed! :(((()";
+}
+
+TEST(MatrixMultiplicationTest, TestMultiplyMatrices11) {
+    std::vector<std::vector<int>> A = {
+        {1, 0,0}
+    };
+    std::vector<std::vector<int>> B = {
+        {1},
+        {0},
+        {11}
+    };
+    std::vector<std::vector<int>> C(1, std::vector<int>(1, 0));
+
+    multiplyMatrices(A, B, C, 1, 3, 1);
+
+    std::vector<std::vector<int>> expected = {
+        {1}
+    };
+
+    ASSERT_EQ(C, expected) << "Matrix multiplication test failed! :(((()";
+}
+
+TEST(MatrixMultiplicationTest, TestMultiplyMatrices12) {
+    std::vector<std::vector<int>> A = {
+        {1, 1,1}
+    };
+    std::vector<std::vector<int>> B = {
+        {3},
+        {3},
+        {3}
+    };
+    std::vector<std::vector<int>> C(1, std::vector<int>(1, 0));
+
+    multiplyMatrices(A, B, C, 1, 3, 1);
+
+    std::vector<std::vector<int>> expected = {
+        {9}
+    };
+
+    ASSERT_EQ(C, expected) << "Matrix multiplication test failed! :(((()";
+}
+
+TEST(MatrixMultiplicationTest, TestMultiplyMatrices13) {
+    std::vector<std::vector<int>> A = {
+        {5, 1,5}
+    };
+    std::vector<std::vector<int>> B = {
+        {1},
+        {5},
+        {1}
+    };
+    std::vector<std::vector<int>> C(1, std::vector<int>(1, 0));
+
+    multiplyMatrices(A, B, C, 1, 3, 1);
+
+    std::vector<std::vector<int>> expected = {
+        {15}
     };
 
     ASSERT_EQ(C, expected) << "Matrix multiplication test failed! :(((()";
