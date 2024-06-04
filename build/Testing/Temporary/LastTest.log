@@ -1,10 +1,10 @@
-Start testing: Jun 04 09:40 UTC
+Start testing: Jun 04 10:04 UTC
 ----------------------------------------------------------
-1/4 Testing: MatrixMultiplicationTest.TestMultiplyMatrices
-1/4 Test: MatrixMultiplicationTest.TestMultiplyMatrices
+1/16 Testing: MatrixMultiplicationTest.TestMultiplyMatrices
+1/16 Test: MatrixMultiplicationTest.TestMultiplyMatrices
 Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices" "--gtest_also_run_disabled_tests"
 Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
-"MatrixMultiplicationTest.TestMultiplyMatrices" start time: Jun 04 09:40 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices" start time: Jun 04 10:04 UTC
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices
@@ -39,15 +39,15 @@ Matrix multiplication test failed! :(((()
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Failed.
-"MatrixMultiplicationTest.TestMultiplyMatrices" end time: Jun 04 09:40 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices" end time: Jun 04 10:04 UTC
 "MatrixMultiplicationTest.TestMultiplyMatrices" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/4 Testing: MatrixMultiplicationTest.TestMultiplyMatrices1
-2/4 Test: MatrixMultiplicationTest.TestMultiplyMatrices1
+2/16 Testing: MatrixMultiplicationTest.TestMultiplyMatrices1
+2/16 Test: MatrixMultiplicationTest.TestMultiplyMatrices1
 Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices1" "--gtest_also_run_disabled_tests"
 Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
-"MatrixMultiplicationTest.TestMultiplyMatrices1" start time: Jun 04 09:40 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices1" start time: Jun 04 10:04 UTC
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices1
@@ -88,18 +88,18 @@ Matrix multiplication test failed! :(((()
 
  1 FAILED TEST
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Failed.
-"MatrixMultiplicationTest.TestMultiplyMatrices1" end time: Jun 04 09:40 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices1" end time: Jun 04 10:04 UTC
 "MatrixMultiplicationTest.TestMultiplyMatrices1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/4 Testing: MatrixMultiplicationTest.TestMultiplyMatrices2
-3/4 Test: MatrixMultiplicationTest.TestMultiplyMatrices2
+3/16 Testing: MatrixMultiplicationTest.TestMultiplyMatrices2
+3/16 Test: MatrixMultiplicationTest.TestMultiplyMatrices2
 Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices2" "--gtest_also_run_disabled_tests"
 Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
-"MatrixMultiplicationTest.TestMultiplyMatrices2" start time: Jun 04 09:40 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices2" start time: Jun 04 10:04 UTC
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices2
@@ -143,15 +143,15 @@ Matrix multiplication test failed! :(((()
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Failed.
-"MatrixMultiplicationTest.TestMultiplyMatrices2" end time: Jun 04 09:40 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices2" end time: Jun 04 10:04 UTC
 "MatrixMultiplicationTest.TestMultiplyMatrices2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/4 Testing: MatrixMultiplicationTest.TestMultiplyMatrices3
-4/4 Test: MatrixMultiplicationTest.TestMultiplyMatrices3
+4/16 Testing: MatrixMultiplicationTest.TestMultiplyMatrices3
+4/16 Test: MatrixMultiplicationTest.TestMultiplyMatrices3
 Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices3" "--gtest_also_run_disabled_tests"
 Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
-"MatrixMultiplicationTest.TestMultiplyMatrices3" start time: Jun 04 09:40 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices3" start time: Jun 04 10:04 UTC
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices3
@@ -197,8 +197,839 @@ Matrix multiplication test failed! :(((()
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Failed.
-"MatrixMultiplicationTest.TestMultiplyMatrices3" end time: Jun 04 09:40 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices3" end time: Jun 04 10:04 UTC
 "MatrixMultiplicationTest.TestMultiplyMatrices3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jun 04 09:40 UTC
+5/16 Testing: MatrixMultiplicationTest.TestMultiplyMatrices4
+5/16 Test: MatrixMultiplicationTest.TestMultiplyMatrices4
+Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices4" "--gtest_also_run_disabled_tests"
+Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
+"MatrixMultiplicationTest.TestMultiplyMatrices4" start time: Jun 04 10:04 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixMultiplicationTest
+[ RUN      ] MatrixMultiplicationTest.TestMultiplyMatrices4
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 12: The number of rows in A is equal to the number of columns in B!
+Error 14: The result matrix C has an even number of rows!
+Error 18: Matrix A is a square matrix!
+/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/test/test_matrix_multiplication.cpp:136: Failure
+Expected equality of these values:
+  C
+    Which is: { { 2078, 38 }, { 46, 81 } }
+  expected
+    Which is: { { 22, 34 }, { 46, 74 } }
+Matrix multiplication test failed! :(((()
+
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices4 (0 ms)
+[----------] 1 test from MatrixMultiplicationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices4
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"MatrixMultiplicationTest.TestMultiplyMatrices4" end time: Jun 04 10:04 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/16 Testing: MatrixMultiplicationTest.TestMultiplyMatrices5
+6/16 Test: MatrixMultiplicationTest.TestMultiplyMatrices5
+Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices5" "--gtest_also_run_disabled_tests"
+Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
+"MatrixMultiplicationTest.TestMultiplyMatrices5" start time: Jun 04 10:04 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixMultiplicationTest
+[ RUN      ] MatrixMultiplicationTest.TestMultiplyMatrices5
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 7: Result matrix contains a number between 11 and 20!
+Error 4: Matrix B contains the number 3!
+Error 12: The number of rows in A is equal to the number of columns in B!
+Error 16: Matrix B contains the number 6!
+Error 18: Matrix A is a square matrix!
+Error 20: Number of columns in matrix A is odd!
+/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/test/test_matrix_multiplication.cpp:158: Failure
+Expected equality of these values:
+  C
+    Which is: { { 2077, 29, 31 }, { 67, 27, 46 }, { 67, 30, 55 } }
+  expected
+    Which is: { { 37, 12, 19 }, { 74, 33, 51 }, { 59, 33, 47 } }
+Matrix multiplication test failed! :(((()
+
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices5 (0 ms)
+[----------] 1 test from MatrixMultiplicationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices5
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"MatrixMultiplicationTest.TestMultiplyMatrices5" end time: Jun 04 10:04 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/16 Testing: MatrixMultiplicationTest.TestMultiplyMatrices6
+7/16 Test: MatrixMultiplicationTest.TestMultiplyMatrices6
+Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices6" "--gtest_also_run_disabled_tests"
+Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
+"MatrixMultiplicationTest.TestMultiplyMatrices6" start time: Jun 04 10:04 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices6
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixMultiplicationTest
+[ RUN      ] MatrixMultiplicationTest.TestMultiplyMatrices6
+Error 7: Result matrix contains a number between 11 and 20!
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 7: Result matrix contains a number between 11 and 20!
+Error 4: Matrix B contains the number 3!
+Error 2: Matrix A contains the number 7!
+Error 2: Matrix A contains the number 7!
+Error 4: Matrix B contains the number 3!
+Error 2: Matrix A contains the number 7!
+Error 2: Matrix A contains the number 7!
+Error 12: The number of rows in A is equal to the number of columns in B!
+Error 14: The result matrix C has an even number of rows!
+Error 16: Matrix B contains the number 6!
+/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/test/test_matrix_multiplication.cpp:181: Failure
+Expected equality of these values:
+  C
+    Which is: { { 2075, 20, 10, 7 }, { 40, 41, 26, 25 }, { 64, 57, 42, 31 }, { 94, 83, 68, 45 } }
+  expected
+    Which is: { { 16, 13, 10, 7 }, { 40, 33, 26, 19 }, { 64, 53, 42, 31 }, { 88, 73, 58, 43 } }
+Matrix multiplication test failed! :(((()
+
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices6 (0 ms)
+[----------] 1 test from MatrixMultiplicationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices6
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"MatrixMultiplicationTest.TestMultiplyMatrices6" end time: Jun 04 10:04 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/16 Testing: MatrixMultiplicationTest.TestMultiplyMatrices7
+8/16 Test: MatrixMultiplicationTest.TestMultiplyMatrices7
+Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices7" "--gtest_also_run_disabled_tests"
+Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
+"MatrixMultiplicationTest.TestMultiplyMatrices7" start time: Jun 04 10:04 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices7
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixMultiplicationTest
+[ RUN      ] MatrixMultiplicationTest.TestMultiplyMatrices7
+Error 4: Matrix B contains the number 3!
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 12: The number of rows in A is equal to the number of columns in B!
+Error 14: The result matrix C has an even number of rows!
+Error 16: Matrix B contains the number 6!
+Error 18: Matrix A is a square matrix!
+/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/test/test_matrix_multiplication.cpp:207: Failure
+Expected equality of these values:
+  C
+    Which is: { { 2014, 74, 60, 50 }, { 255, 230, 198, 174 }, { 403, 367, 326, 278 }, { 567, 510, 447, 393 } }
+  expected
+    Which is: { { 80, 70, 60, 50 }, { 240, 214, 188, 162 }, { 400, 358, 316, 274 }, { 560, 502, 444, 386 } }
+Matrix multiplication test failed! :(((()
+
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices7 (0 ms)
+[----------] 1 test from MatrixMultiplicationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices7
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"MatrixMultiplicationTest.TestMultiplyMatrices7" end time: Jun 04 10:04 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/16 Testing: MatrixMultiplicationTest.TestMultiplyMatrices8
+9/16 Test: MatrixMultiplicationTest.TestMultiplyMatrices8
+Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices8" "--gtest_also_run_disabled_tests"
+Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
+"MatrixMultiplicationTest.TestMultiplyMatrices8" start time: Jun 04 10:04 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices8
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixMultiplicationTest
+[ RUN      ] MatrixMultiplicationTest.TestMultiplyMatrices8
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 12: The number of rows in A is equal to the number of columns in B!
+Error 14: The result matrix C has an even number of rows!
+Error 16: Matrix B contains the number 6!
+Error 18: Matrix A is a square matrix!
+/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/test/test_matrix_multiplication.cpp:232: Failure
+Expected equality of these values:
+  C
+    Which is: { { 2021, 287, 248, 206 }, { 964, 862, 759, 651 }, { 1610, 1434, 1267, 1104 }, { 2241, 2018, 1780, 1551 } }
+  expected
+    Which is: { { 256, 240, 224, 208 }, { 640, 600, 560, 520 }, { 1024, 960, 896, 832 }, { 1408, 1320, 1232, 1144 } }
+Matrix multiplication test failed! :(((()
+
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices8 (0 ms)
+[----------] 1 test from MatrixMultiplicationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices8
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"MatrixMultiplicationTest.TestMultiplyMatrices8" end time: Jun 04 10:04 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/16 Testing: MatrixMultiplicationTest.TestMultiplyMatrices9
+10/16 Test: MatrixMultiplicationTest.TestMultiplyMatrices9
+Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices9" "--gtest_also_run_disabled_tests"
+Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
+"MatrixMultiplicationTest.TestMultiplyMatrices9" start time: Jun 04 10:04 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices9
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixMultiplicationTest
+[ RUN      ] MatrixMultiplicationTest.TestMultiplyMatrices9
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 12: The number of rows in A is equal to the number of columns in B!
+Error 14: The result matrix C has an even number of rows!
+Error 18: Matrix A is a square matrix!
+/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/test/test_matrix_multiplication.cpp:257: Failure
+Expected equality of these values:
+  C
+    Which is: { { 2047, 206, 177, 141 }, { 834, 739, 649, 554 }, { 1444, 1287, 1128, 963 }, { 2055, 1826, 1617, 1386 } }
+  expected
+    Which is: { { 240, 224, 208, 192 }, { 656, 612, 568, 524 }, { 1072, 1000, 928, 856 }, { 1488, 1388, 1288, 1188 } }
+Matrix multiplication test failed! :(((()
+
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices9 (0 ms)
+[----------] 1 test from MatrixMultiplicationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices9
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"MatrixMultiplicationTest.TestMultiplyMatrices9" end time: Jun 04 10:04 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices9" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/16 Testing: MatrixMultiplicationTest.TestMultiplyMatrices10
+11/16 Test: MatrixMultiplicationTest.TestMultiplyMatrices10
+Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices10" "--gtest_also_run_disabled_tests"
+Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
+"MatrixMultiplicationTest.TestMultiplyMatrices10" start time: Jun 04 10:04 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices10
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixMultiplicationTest
+[ RUN      ] MatrixMultiplicationTest.TestMultiplyMatrices10
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 12: The number of rows in A is equal to the number of columns in B!
+Error 16: Matrix B contains the number 6!
+Error 18: Matrix A is a square matrix!
+Error 20: Number of columns in matrix A is odd!
+/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/test/test_matrix_multiplication.cpp:285: Failure
+Expected equality of these values:
+  C
+    Which is: { { 2052, 647, 588, 526, 464 }, { 2206, 2047, 1883, 1730, 1562 }, { 3703, 3448, 3181, 2930, 2664 }, { 5207, 4841, 4487, 4123, 3767 }, { 6702, 6249, 5788, 5330, 4863 } }
+  expected
+    Which is: { { 500, 480, 460, 440, 420 }, { 1300, 1240, 1180, 1120, 1060 }, { 2100, 2000, 1900, 1800, 1700 }, { 2900, 2760, 2620, 2480, 2340 }, { 3700, 3520, 3340, 3160, 2980 } }
+Matrix multiplication test failed! :(((()
+
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices10 (0 ms)
+[----------] 1 test from MatrixMultiplicationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices10
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"MatrixMultiplicationTest.TestMultiplyMatrices10" end time: Jun 04 10:04 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/16 Testing: MatrixMultiplicationTest.TestMultiplyMatrices11
+12/16 Test: MatrixMultiplicationTest.TestMultiplyMatrices11
+Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices11" "--gtest_also_run_disabled_tests"
+Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
+"MatrixMultiplicationTest.TestMultiplyMatrices11" start time: Jun 04 10:04 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices11
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixMultiplicationTest
+[ RUN      ] MatrixMultiplicationTest.TestMultiplyMatrices11
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 12: The number of rows in A is equal to the number of columns in B!
+Error 16: Matrix B contains the number 6!
+Error 18: Matrix A is a square matrix!
+Error 20: Number of columns in matrix A is odd!
+/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/test/test_matrix_multiplication.cpp:313: Failure
+Expected equality of these values:
+  C
+    Which is: { { 1996, 167, 159, 134, 121 }, { 560, 522, 482, 444, 398 }, { 932, 863, 804, 739, 673 }, { 1310, 1213, 1124, 1034, 948 }, { 1681, 1570, 1451, 1339, 1225 } }
+  expected
+    Which is: { { 275, 270, 265, 260, 255 }, { 700, 670, 640, 610, 580 }, { 1125, 1070, 1015, 960, 905 }, { 1550, 1470, 1390, 1310, 1230 }, { 1975, 1870, 1765, 1660, 1555 } }
+Matrix multiplication test failed! :(((()
+
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices11 (0 ms)
+[----------] 1 test from MatrixMultiplicationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices11
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"MatrixMultiplicationTest.TestMultiplyMatrices11" end time: Jun 04 10:04 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices11" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/16 Testing: MatrixMultiplicationTest.TestMultiplyMatrices12
+13/16 Test: MatrixMultiplicationTest.TestMultiplyMatrices12
+Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices12" "--gtest_also_run_disabled_tests"
+Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
+"MatrixMultiplicationTest.TestMultiplyMatrices12" start time: Jun 04 10:04 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices12
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixMultiplicationTest
+[ RUN      ] MatrixMultiplicationTest.TestMultiplyMatrices12
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 12: The number of rows in A is equal to the number of columns in B!
+Error 14: The result matrix C has an even number of rows!
+Error 16: Matrix B contains the number 6!
+Error 18: Matrix A is a square matrix!
+/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/test/test_matrix_multiplication.cpp:344: Failure
+Expected equality of these values:
+  C
+    Which is: { { 2027, 1267, 1184, 1098, 1012, 930 }, { 4375, 4143, 3922, 3686, 3459, 3236 }, { 7393, 7030, 6652, 6283, 5905, 5539 }, { 10419, 9907, 9386, 8877, 8360, 7846 }, { 13443, 12781, 12123, 11464, 10808, 10146 }, { 16474, 15663, 14859, 14061, 13258, 12452 } }
+  expected
+    Which is: { { 720, 700, 680, 660, 640, 620 }, { 1872, 1808, 1744, 1680, 1616, 1552 }, { 3024, 2916, 2808, 2700, 2592, 2484 }, { 4176, 4024, 3872, 3720, 3568, 3416 }, { 5328, 5132, 4936, 4740, 4544, 4348 }, { 6480, 6240, 6000, 5760, 5520, 5280 } }
+Matrix multiplication test failed! :(((()
+
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices12 (0 ms)
+[----------] 1 test from MatrixMultiplicationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices12
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"MatrixMultiplicationTest.TestMultiplyMatrices12" end time: Jun 04 10:04 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices12" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/16 Testing: MatrixMultiplicationTest.TestMultiplyMatrices13
+14/16 Test: MatrixMultiplicationTest.TestMultiplyMatrices13
+Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices13" "--gtest_also_run_disabled_tests"
+Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
+"MatrixMultiplicationTest.TestMultiplyMatrices13" start time: Jun 04 10:04 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices13
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixMultiplicationTest
+[ RUN      ] MatrixMultiplicationTest.TestMultiplyMatrices13
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 12: The number of rows in A is equal to the number of columns in B!
+Error 14: The result matrix C has an even number of rows!
+Error 18: Matrix A is a square matrix!
+/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/test/test_matrix_multiplication.cpp:375: Failure
+Expected equality of these values:
+  C
+    Which is: { { 1998, 998, 922, 850, 783, 705 }, { 4018, 3796, 3583, 3361, 3154, 2935 }, { 6962, 6609, 6248, 5890, 5524, 5163 }, { 9916, 9416, 8910, 8410, 7902, 7401 }, { 12874, 12224, 11572, 10927, 10277, 9634 }, { 15820, 15026, 14242, 13445, 12665, 11861 } }
+  expected
+    Which is: { { 720, 700, 680, 660, 640, 620 }, { 1872, 1808, 1744, 1680, 1616, 1552 }, { 3024, 2916, 2808, 2700, 2592, 2484 }, { 4176, 4024, 3872, 3720, 3568, 3416 }, { 5328, 5132, 4936, 4740, 4544, 4348 }, { 6480, 6240, 6000, 5760, 5520, 5280 } }
+Matrix multiplication test failed! :(((()
+
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices13 (0 ms)
+[----------] 1 test from MatrixMultiplicationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices13
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"MatrixMultiplicationTest.TestMultiplyMatrices13" end time: Jun 04 10:04 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices13" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/16 Testing: MatrixMultiplicationTest.TestMultiplyMatrices14
+15/16 Test: MatrixMultiplicationTest.TestMultiplyMatrices14
+Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices14" "--gtest_also_run_disabled_tests"
+Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
+"MatrixMultiplicationTest.TestMultiplyMatrices14" start time: Jun 04 10:04 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices14
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixMultiplicationTest
+[ RUN      ] MatrixMultiplicationTest.TestMultiplyMatrices14
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 12: The number of rows in A is equal to the number of columns in B!
+Error 16: Matrix B contains the number 6!
+Error 18: Matrix A is a square matrix!
+Error 20: Number of columns in matrix A is odd!
+/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/test/test_matrix_multiplication.cpp:409: Failure
+Expected equality of these values:
+  C
+    Which is: { { 2076, 2247, 2136, 2022, 1908, 1798, 1687 }, { 7843, 7542, 7226, 6919, 6616, 6301, 6002 }, { 13332, 12831, 12321, 11823, 11315, 10815, 10306 }, { 18825, 18124, 17426, 16719, 16017, 15319, 14620 }, { 24312, 23414, 22522, 21619, 20723, 19833, 18938 }, { 29800, 28704, 27615, 26518, 25427, 24342, 23244 }, { 35282, 34002, 32709, 31424, 30137, 28845, 27558 } }
+  expected
+    Which is: { { 2744, 2688, 2632, 2576, 2520, 2464, 2408 }, { 7000, 6860, 6720, 6580, 6440, 6300, 6160 }, { 11256, 11032, 10808, 10584, 10360, 10136, 9912 }, { 15512, 15204, 14896, 14588, 14280, 13972, 13664 }, { 19768, 19376, 18984, 18592, 18200, 17808, 17416 }, { 24024, 23548, 23072, 22596, 22120, 21644, 21168 }, { 28280, 27720, 27160, 26600, 26040, 25480, 24920 } }
+Matrix multiplication test failed! :(((()
+
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices14 (0 ms)
+[----------] 1 test from MatrixMultiplicationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices14
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"MatrixMultiplicationTest.TestMultiplyMatrices14" end time: Jun 04 10:04 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices14" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/16 Testing: MatrixMultiplicationTest.TestMultiplyMatrices15
+16/16 Test: MatrixMultiplicationTest.TestMultiplyMatrices15
+Command: "/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build/test_multiplication" "--gtest_filter=MatrixMultiplicationTest.TestMultiplyMatrices15" "--gtest_also_run_disabled_tests"
+Directory: /home/jellyfish/shared-folder/SWENG2/SwEng-Project-/build
+"MatrixMultiplicationTest.TestMultiplyMatrices15" start time: Jun 04 10:04 UTC
+Output:
+----------------------------------------------------------
+Note: Google Test filter = MatrixMultiplicationTest.TestMultiplyMatrices15
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MatrixMultiplicationTest
+[ RUN      ] MatrixMultiplicationTest.TestMultiplyMatrices15
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 2: Matrix A contains the number 7!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 4: Matrix B contains the number 3!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 12: The number of rows in A is equal to the number of columns in B!
+Error 18: Matrix A is a square matrix!
+Error 20: Number of columns in matrix A is odd!
+/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/test/test_matrix_multiplication.cpp:443: Failure
+Expected equality of these values:
+  C
+    Which is: { { 1990, 1827, 1725, 1627, 1531, 1433, 1337 }, { 7308, 7008, 6720, 6422, 6132, 5842, 5545 }, { 12701, 12204, 11712, 11224, 10735, 10255, 9761 }, { 18084, 17398, 16718, 16033, 15345, 14662, 13967 }, { 23474, 22599, 21711, 20827, 19953, 19074, 18188 }, { 28866, 27789, 26706, 25631, 24556, 23474, 22400 }, { 34255, 32980, 31704, 30436, 29157, 27893, 26612 } }
+  expected
+    Which is: { { 2744, 2688, 2632, 2576, 2520, 2464, 2408 }, { 7000, 6860, 6720, 6580, 6440, 6300, 6160 }, { 11256, 11032, 10808, 10584, 10360, 10136, 9912 }, { 15512, 15204, 14896, 14588, 14280, 13972, 13664 }, { 19768, 19376, 18984, 18592, 18200, 17808, 17416 }, { 24024, 23548, 23072, 22596, 22120, 21644, 21168 }, { 28280, 27720, 27160, 26600, 26040, 25480, 24920 } }
+Matrix multiplication test failed! :(((()
+
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices15 (0 ms)
+[----------] 1 test from MatrixMultiplicationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MatrixMultiplicationTest.TestMultiplyMatrices15
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"MatrixMultiplicationTest.TestMultiplyMatrices15" end time: Jun 04 10:04 UTC
+"MatrixMultiplicationTest.TestMultiplyMatrices15" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 04 10:04 UTC
