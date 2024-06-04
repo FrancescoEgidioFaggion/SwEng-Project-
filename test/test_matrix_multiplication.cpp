@@ -93,6 +93,9 @@ Expected equality of these values:
     Which is: { { 7, 8, 10 }, { 9, 10, 9 }, { 11, 12, 3 } }
 Matrix multiplication test failed!
 
+
+
+
 We notice that error 4 and error 7 are printed multiple times.
 
 
@@ -101,7 +104,7 @@ We notice that error 4 and error 7 are printed multiple times.
 
 
 TEST 2: 
-We want to see if the error is printed a number of times that depends on the position of the number 3 in the matrix B.
+We want to see if the error 4 is printed a number of times that depends on the position of the number 3 in the matrix B.
 here numver 3 is on the 6th row and error 4 is printed 6 times!
 
 */
@@ -401,7 +404,7 @@ Error 20: Number of columns in matrix A is odd!
 Test Passed.
 
 TEST 7:
-We can  do the hypothesis that the result was incorrect because of error 6 only
+We can  do the hypothesis that the result of the very first test was incorrect because of the effect of error 6 only
 We now want to investigate the behaviour of the function when error 6 occurs.
 */
 
@@ -441,6 +444,9 @@ Matrix multiplication test failed!
 
 We noticed that, in comparison with test1, the numbers that are wrong are increased of the same amounts.
 Respectively: 4, 7, 8.
+
+
+TEST8:
 
 We try to increase the matrix size and to have many numbers that are greater than 100.
 We want to analyze how are these modified with respect to the correct number.
@@ -514,6 +520,8 @@ Matrix multiplication test failed!
 We notice that the numbers that are wrong are increased of the same amounts and always in the same order.
 Respectively: 4, 6, 7, 8, 6, 4, 6, 7, 3, 10, 2, 3, 8, 1, 10, 4, 7, 1.
 
+TEST9: we extend the number of elements expected to be grater than 100 and repeat to check if the sequence of numbers remains the same.
+
 */
 
 TEST(MatrixMultiplicationTest, TestMultiplyMatrices9) {
@@ -586,7 +594,7 @@ Error 6: Result matrix contains a number bigger than 100!
 Error 6: Result matrix contains a number bigger than 100!
 Error 6: Result matrix contains a number bigger than 100!
 Error 6: Result matrix contains a number bigger than 100!
-/home/jellyfish/shared-folder/SWENG2/SwEng-Project-/test/test_matrix_multiplication.cpp:515: Failure
+
 Expected equality of these values:
   C
     Which is: { { 110, 309 }, { 112, 208 }, { 110, 308 }, { 113, 305 }, { 114, 204 },
@@ -599,31 +607,41 @@ Expected equality of these values:
 Matrix multiplication test failed!
 
 Again the numbers that are wrong are increased of the same amounts and always in the same order.
-Respectively: 4, 6, 7, 8, 6, 4, 6, 7, 3, 10, 2, 3, 8, 1, 10, 4, 7, 1, ecc... 
+Respectively: 4, 7, 8, 6, 4, 6, 7, 3, 10, 2, 3, 8, 1, 10, 4, 7, 1, ecc... 
 (same amounts as before)
+
+-------------------------------------------------------------------------------
+
+TEST10: We now focus on error 8. We want to see how it influences the output.
+We want the expected result matrix to contain many zeros and we build the test 
+in such way that there are no other errors displayed except number 8.
+
 
 */
 
 
-/*
-TEST(MatrixMultiplicationTest, TestMultiplyMatrices2) {
+
+TEST(MatrixMultiplicationTest, TestMultiplyMatrices10) {
     std::vector<std::vector<int>> A = {
-        {2, 2, 2},
-        {2, 2, 2}
+        {0, 0, 0, 0},
+        {0, 0, 0, 0},
+        {0, 0, 0, 0}
 
         
     };
     std::vector<std::vector<int>> B = {
-        {0, 0},
-        {0, 0},
-        {0, 0}
+        {2, 2},
+        {2, 2},
+        {2, 2},
+        {2, 2}
     };
-    std::vector<std::vector<int>> C(2, std::vector<int>(2, 0));
+    std::vector<std::vector<int>> C(3, std::vector<int>(2, 0));
 
 
-    multiplyMatrices(A, B, C, 2, 3, 2);
+    multiplyMatrices(A, B, C, 3, 4, 2);
 
     std::vector<std::vector<int>> expected = {
+        {0, 0},
         {0, 0},
         {0, 0}
     };
@@ -631,48 +649,154 @@ TEST(MatrixMultiplicationTest, TestMultiplyMatrices2) {
     ASSERT_EQ(C, expected) << "Matrix multiplication test failed! :(((()";
 }
 
+/*
 
+output:
+Error 8: Result matrix contains zero!
+Error 8: Result matrix contains zero!
+Error 8: Result matrix contains zero!
+Error 8: Result matrix contains zero!
+Error 8: Result matrix contains zero!
+Error 8: Result matrix contains zero!
 
-TEST(MatrixMultiplicationTest, TestMultiplyMatrices3) {
+Expected equality of these values:
+  C
+    Which is: { { 4, 7 }, { 8, 6 }, { 4, 6 } }
+  expected
+    Which is: { { 0, 0 }, { 0, 0 }, { 0, 0 } }
+Matrix multiplication test failed! 
+
+We get once again the same sequence of numbers.
+ It looks like the function adds a number from this sequence
+to every element of the result matrix that is equal zero or greater than 100.
+
+TEST11:
+We can do a test where expected result has zeros AND numbers greater than 100 and see what happens:
+
+*/
+
+TEST(MatrixMultiplicationTest, TestMultiplyMatrices11) {
     std::vector<std::vector<int>> A = {
-        {8, 3,7},
-        {11, 4, 4}
+        {0, 0, 0, 0},
+        {0, 50, 0, 0},
+        {0, 0, 50, 0},
+        
     };
     std::vector<std::vector<int>> B = {
         {10, 8},
         {4, 10},
-        {11, 2}
-    };
-    std::vector<std::vector<int>> C(2, std::vector<int>(2, 0));
+        {11, 4},
+        {15,18}
 
-    multiplyMatrices(A, B, C, 2, 3, 2);
-
-    std::vector<std::vector<int>> expected = {
-        {169, 108},
-        {170, 136}
     };
+    std::vector<std::vector<int>> C(3, std::vector<int>(2, 0));
+
+    multiplyMatrices(A, B, C, 3, 4, 2);
+
+     std::vector<std::vector<int>> expected(3, std::vector<int>(2, 0));
+    multiplyMatricesWithoutErrors(A, B, expected, 3, 4, 2);
+
+    
 
     ASSERT_EQ(C, expected) << "Matrix multiplication test failed! :(((()";
 }
 
-TEST(MatrixMultiplicationTest, TestMultiplyMatrices4) {
+/*
+Error 8: Result matrix contains zero!
+Error 8: Result matrix contains zero!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Error 6: Result matrix contains a number bigger than 100!
+Expected equality of these values:
+  C
+    Which is: { { 4, 7 }, { 208, 506 }, { 554, 206 } }
+  expected
+    Which is: { { 0, 0 }, { 200, 500 }, { 550, 200 } }
+Matrix multiplication test failed! 
+
+Again the values differ of the same amounts in the same order: 4,7,8,6,4,6,.....
+
+------------------------------------------------------------------
+
+TEST12: In test 1 we found error 4:Matrix B contains the number 3!
+Let's now try to understand how it impacts the computed matrix.
+
+*/
+TEST(MatrixMultiplicationTest, TestMultiplyMatrices12) {
     std::vector<std::vector<int>> A = {
-        {0}
+        {15,9},
+        {13,9},
+        {8,8},
+        {6,4},
+        {12,2}
         
     };
     std::vector<std::vector<int>> B = {
-       {0}
-    };
-    std::vector<std::vector<int>> C(1, std::vector<int>(1, 0));
+       {3,3,3},
+       {3,1,1},
+    
 
-    multiplyMatrices(A, B, C, 1, 1, 1);
-
-    std::vector<std::vector<int>> expected = {
-        {0}
     };
+    std::vector<std::vector<int>> C(5, std::vector<int>(3, 0));
+
+    multiplyMatrices(A, B, C, 5, 2, 3);
+
+    std::vector<std::vector<int>> expected(5, std::vector<int>(3, 0));
+    multiplyMatricesWithoutErrors(A, B, expected, 5, 2, 3);
+
+    
 
     ASSERT_EQ(C, expected) << "Matrix multiplication test failed! :(((()";
 }
+
+/*
+
+output:
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+Error 4: Matrix B contains the number 3!
+
+Expected equality of these values:
+  C
+    Which is: { { 83, 62, 60 }, { 76, 55, 51 }, { 60, 35, 40 }, { 41, 26, 29 }, { 50, 41, 45 } }
+  expected
+    Which is: { { 72, 54, 54 }, { 66, 48, 48 }, { 48, 32, 32 }, { 30, 22, 22 }, { 42, 38, 38 } }
+Matrix multiplication test failed!
+
+Numbers in the first column are result of products with 2 elements of matrix B equal to 3.
+For these numbers the effect is double. 
+For example the first number is 72 which differs from 83 for a quantity equal to 11. 
+11 corresponds to the sum of the first two elements of the series we found by analyzing prevoius tests.
+
+4, 7, 8, 6, 4, 6, 7, 3, 10, 2, 3, 8, 1, 10, 4, 7, 1, ecc...
+\  /        \  /         \ /
+ 11          10           12
+
+ Also in this case for every time the error is found, an element of this series is added to the corrisponding position on the computed matrix.
+
+
+ ----------------------------------------------------------------------------------------------------------
+ __________________________________________________________________________________________________________
+
+
 
 TEST(MatrixMultiplicationTest, TestMultiplyMatrices5) {
     std::vector<std::vector<int>> A = {

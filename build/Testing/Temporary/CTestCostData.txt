@@ -2,12 +2,15 @@ MatrixMultiplicationTest.TestMultiplyMatrices 1 0
 MatrixMultiplicationTest.TestMultiplyMatrices1 8 0
 MatrixMultiplicationTest.TestMultiplyMatrices2 0 0
 MatrixMultiplicationTest.TestMultiplyMatrices3 0 0
-MatrixMultiplicationTest.TestMultiplyMatrices4 15 0.000206843
-MatrixMultiplicationTest.TestMultiplyMatrices5 10 0.000369966
-MatrixMultiplicationTest.TestMultiplyMatrices6 6 0.000538161
+MatrixMultiplicationTest.TestMultiplyMatrices4 31 0.0001015
+MatrixMultiplicationTest.TestMultiplyMatrices5 26 0.000134709
+MatrixMultiplicationTest.TestMultiplyMatrices6 22 0.000174178
 MatrixMultiplicationTest.TestMultiplyMatrices7 0 0
 MatrixMultiplicationTest.TestMultiplyMatrices8 0 0
 MatrixMultiplicationTest.TestMultiplyMatrices9 0 0
+MatrixMultiplicationTest.TestMultiplyMatrices10 0 0
+MatrixMultiplicationTest.TestMultiplyMatrices11 0 0
+MatrixMultiplicationTest.TestMultiplyMatrices12 0 0
 ---
 MatrixMultiplicationTest.TestMultiplyMatrices
 MatrixMultiplicationTest.TestMultiplyMatrices1
@@ -16,3 +19,6 @@ MatrixMultiplicationTest.TestMultiplyMatrices3
 MatrixMultiplicationTest.TestMultiplyMatrices7
 MatrixMultiplicationTest.TestMultiplyMatrices8
 MatrixMultiplicationTest.TestMultiplyMatrices9
+MatrixMultiplicationTest.TestMultiplyMatrices10
+MatrixMultiplicationTest.TestMultiplyMatrices11
+MatrixMultiplicationTest.TestMultiplyMatrices12
